@@ -67,7 +67,7 @@ Each file has a [front-matter](https://github.com/jxson/front-matter) header whe
 ---
 title:      "React"
 ring:       adopt
-quadrant:   languages-and-frameworks
+quadrant:   cyber-frameworks
 ---
 
 Text goes here. You can use **markdown** here.
@@ -76,8 +76,8 @@ Text goes here. You can use **markdown** here.
 Following front-matter attributes are possible:
 
 - **title**: Name of the Item
-- **quadrant**: Quadrant. One of `languages-and-frameworks`,
-  `methods-and-patterns`, `platforms-and-aoe-services`, `tools`
+- **quadrant**: Quadrant. One of `cyber-frameworks`,
+  `methods-and-patterns`, `cybersecurity-products`, `tools`
 - **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `hold`
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
@@ -149,9 +149,9 @@ The content should look as follows:
 ```json
 {
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
+    "cyber-frameworks": "Cyber Frameworks",
     "methods-and-patterns": "Methods & Patterns",
-    "platforms-and-operations": "Platforms & Operations",
+    "platforms-and-operations": "Cybersecurity Products",
     "tools": "Tools"
   },
   "rings":["all", "adopt", "trial", "assess", "hold"],

@@ -1,9 +1,9 @@
 {
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
+    "cyber-frameworks": "Cybersecurity Frameworks",
     "methods-and-patterns": "Methods & Patterns",
-    "platforms-and-aoe-services": "Platforms & Operations",
-    "tools": "Tools"
+    "cybersecurity-products": "Cybersecurity Products",
+    "tools": "Capabilities"
   },
   "rings": [
     "adopt",
@@ -11,10 +11,10 @@
     "assess",
     "hold"
   ],
-  "showEmptyRings": false,
+  "showEmptyRings": true,
   "homepageContent": "both",
   "quadrantsMap": {
-    "languages-and-frameworks": {
+    "cyber-frameworks": {
       "colour": "#84BFA4",
       "txtColour": "#444444",
       "position": 1,
@@ -26,7 +26,7 @@
       "position": 2,
       "description": "Here we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
     },
-    "platforms-and-aoe-services": {
+    "cybersecurity-products": {
       "colour": "#F25244",
       "txtColour": "#444444",
       "position": 3,
