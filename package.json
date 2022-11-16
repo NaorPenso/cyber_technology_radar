@@ -1,17 +1,17 @@
 {
-  "name": "aoe_technology_radar",
-  "version": "3.4.1",
-  "description": "AOE Technology Radar",
-  "author": "AOE GmbH <contact-de@aoe.com> (http://www.aoe.com)",
+  "name": "cyber_technology_radar",
+  "version": "1.0.0",
+  "description": "Cyber Technology Radar",
+  "author": "Naor Penso <radar@naorpenso.com> (http://www.naorpenso.com)",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AOEpeople/aoe_technology_radar.git"
+    "url": "https://github.com/NaorPenso/cyber_technology_radar.git"
   },
   "bin": {
-    "aoe_technology_radar-buildRadar": "dist_scripts/scripts/buildRadar.js",
-    "aoe_technology_radar-createStaticFiles": "dist_scripts/scripts/createStaticFiles.js",
-    "aoe_technology_radar-generateJson": "dist_scripts/scripts/generateJson.js"
+    "cyber_technology_radar-buildRadar": "dist_scripts/scripts/buildRadar.js",
+    "cyber_technology_radar-createStaticFiles": "dist_scripts/scripts/createStaticFiles.js",
+    "cyber_technology_radar-generateJson": "dist_scripts/scripts/generateJson.js"
   },
   "scripts": {
     "prepare": "husky install && npm run build:scripts",

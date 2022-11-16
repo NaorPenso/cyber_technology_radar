@@ -1,5 +1,5 @@
-# AOE Technology Radar
-A static site generator for AOE Technology Radar
+# Cyber Technology Radar
+A static site generator for Cyber Technology Radar
 
 ## Looking for the AOE Tech Radar content?
 The repository is now found here: https://github.com/AOEpeople/techradar
@@ -17,17 +17,17 @@ However, please be aware:
 ### Use and build the radar
 Create a new npm project and add the tech radar as a dependency
 ```
-npm i aoe_technology_radar
+npm i cyber_technology_radar
 ```
 
 Build the radar
 ```
-npx aoe_technology_radar-buildRadar
+npx cyber_technology_radar-buildRadar
 ```
 
 Generate the `rd.json` file containing the radar data
 ```
-npx aoe_technology_radar-generateJson
+npx cyber_technology_radar-generateJson
 ```
 
 Run the Prepare script 
@@ -52,7 +52,7 @@ Requirements
 * Generate the `rd.json` file
 
 ```
-npx aoe_technology_radar-createStaticFiles
+npx cyber_technology_radar-createStaticFiles
 ```
 
 ## Authoring Techradar contents
@@ -100,7 +100,7 @@ You can integrate images in your markdown. Put the image files in your public fo
 You can customize the following parts of the tech radar.
 
 ### Change title, description and headline
-Set the environment variable `REACT_APP_RADAR_NAME`. The default is "AOE Technology Radar".
+Set the environment variable `REACT_APP_RADAR_NAME`. The default is "Cyber Technology Radar".
 
 ### Host the application under a sub path
 To host the application under a sub path, set the environment variable `PUBLIC_URL`, e.g. "/techradar". The default is "/".
@@ -254,7 +254,7 @@ To add a help page, create a public folder in your application and put a `messag
         ]
       },
       {
-        "headline": "What is the AOE Technology Radar",
+        "headline": "What is the Cyber Technology Radar",
         "values": [
           "The Tech Radar is an overview of different technologies - from languages, frameworks, tools and patterns to platforms - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed."
         ]
@@ -297,7 +297,7 @@ To add a help page, create a public folder in your application and put a `messag
       }
     ],
     "sourcecodeLink": {
-      "href": "https://github.com/AOEpeople/aoe_technology_radar",
+      "href": "https://github.com/AOEpeople/cyber_technology_radar",
       "name": "AOE Tech Radar on Github",
       "description": "Contributions and source code of the AOE Tech Radar are on github:"
     }
