@@ -1,5 +1,13 @@
 # Changelog
 
+## Version v3.4.2 (2022-12-04)
+
+### Other
+
+- Create codeql.yml (05c8e1e5)
+- changes to the quadrants (d0b718a3)
+- initial updates to the radar structure (861fd39c)
+
 ## Version v3.4.1 (2022-11-15)
 
 ### Fixes
